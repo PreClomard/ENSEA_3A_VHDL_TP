@@ -1,5 +1,6 @@
 -----------------------------------------------------------------------------
 --ram_2pMxNbits
+--GROUSSARD et PRESSARD
 -----------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -7,8 +8,8 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity RAM_2pMxNbits is
     generic (
-        M : integer := 4;  -- Par défaut, 2^4 = 16 mots
-        N : integer := 8   -- Par défaut, 8 bits par mot
+        M : integer := 4;  -- Par dÃ©faut, 2^4 = 16 mots
+        N : integer := 8   -- Par dÃ©faut, 8 bits par mot
     );
     Port (
         OE      : in  STD_LOGIC;
