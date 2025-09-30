@@ -29,9 +29,9 @@ begin
     begin
         while true loop
             clk <= '0';
-            wait for 20 ns;
+            wait for 5 ns;
             clk <= '1';
-            wait for 20 ns;
+            wait for 5 ns;
         end loop;
     end process;
 
@@ -41,11 +41,11 @@ begin
 	-- Reset initial
         reset <= '1';
     	D  <= "10101010";
-        wait for 50 ns;
+        wait for 10 ns;
         reset <= '0';
-	wait for 50 ns;
+	wait for 10 ns;
 	D  <= "11111111";
-	wait for 50 ns;	
+	wait for 10 ns;	
 	reset <= '1';
 
         -- Fin de simulation
