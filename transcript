@@ -377,3 +377,5 @@ run
 #    Time: 25 ns  Iteration: 1  Instance: /reg_n_tb/uut
 # ** Warning: temps de setup non respecté
 #    Time: 35 ns  Iteration: 1  Instance: /reg_n_tb/uut
+# End time: 10:23:53 on Sep 30,2025, Elapsed time: 0:41:42
+# Errors: 0, Warnings: 7
