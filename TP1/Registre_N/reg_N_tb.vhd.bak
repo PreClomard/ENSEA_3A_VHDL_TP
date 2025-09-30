@@ -1,0 +1,56 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity reg_N_tb is
+end reg_N_tb;
+
+architecture Behavioral of reg_N_tb is
+    constant N : integer := 8; -- 8 bits par mot
+
+    signal D : STD_LOGIC_VECTOR (N-1 downto 0);
+    signal Reset : STD_LOGIC;
+    signal CLK : STD_LOGIC;
+    signal Q : STD_LOGIC_VECTOR (N-1 downto 0);
+
+begin
+    -- Instanciation
+    uut: entity work.reg_N
+        generic map (N => N)
+        port map (
+  		D => D,
+        	Reset => Reset,
+		CLK => CLK,
+		Q => Q
+        );
+
+    -- Generation d'horloge
+    clk_process : process
+    begin
+        while true loop
+            clk <= '0';
+            wait for clk_period/2;
+            clk <= '1';
+            wait for clk_period/2;
+        end loop;
+    end process;
+
+    -- Stimuli
+    stim_proc: process
+    begin
+	-- Reset initial
+        reset <= '1';
+    	D  <= "10101010";
+        wait for 50 ns;
+        reset <= '0';
+	wait for 50 ns;
+	D  <= "11111111";
+	wait for 50 ns;	
+	reset <= '1';
+
+        -- Fin de simulation
+        wait;
+    end process;
+end Behavioral;
+
+

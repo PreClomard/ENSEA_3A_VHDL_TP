@@ -1,0 +1,125 @@
+---------------------------------------------------------
+--RAM_2pMxNbits_tb.chd (testbench file)
+---------------------------------------------------------
+
+library ieee;
+use ieee.std_logic_1164.all;
+-------------------------------------------------
+
+LIBRARY ieee;
+USE ieee.NUMERIC_STD.all;
+USE ieee.std_logic_1164.all;
+
+ENTITY ram_2pmxnbits_tbRAM_2pMxNbits_tb IS
+  GENERIC (
+    M : NATURAL := 4;
+    N : NATURAL := 8
+  );
+END;
+
+ARCHITECTURE RAM_2pMxNbits_tb_arch OF RAM_2pMxNbits_tb IS
+  SIGNAL Dout : std_logic_vector(N - 1 downto 0);
+  SIGNAL OE   : std_logic;
+  SIGNAL RW_n : std_logic;
+  SIGNAL Din  : std_logic_vector(N - 1 downto 0);
+  SIGNAL Adr  : std_logic_vector(M - 1 downto 0);
+  SIGNAL SC_n : std_logic;
+
+  COMPONENT RAM_2pMxNbits
+    GENERIC (
+      M : NATURAL;
+      N : NATURAL
+    );
+    PORT (
+      OE   : in  STD_LOGIC;
+      SC_n : in  STD_LOGIC;
+      RW_n : in  STD_LOGIC;
+      Adr  : in  std_logic_vector(M - 1 downto 0);
+      Din  : in  std_logic_vector(N - 1 downto 0);
+      Dout : out std_logic_vector(N - 1 downto 0)
+    );
+  END COMPONENT;
+
+BEGIN
+  DUT : RAM_2pMxNbits
+    GENERIC MAP (
+      M => M,
+      N => N
+    )
+    PORT MAP (
+      Dout => Dout,
+      OE   => OE,
+      RW_n => RW_n,
+      Din  => Din,
+      Adr  => Adr,
+      SC_n => SC_n
+    );
+
+  -------------------------------------------------------
+  -- Stimulus process
+  -------------------------------------------------------
+  stim_proc : PROCESS
+  BEGIN
+    -- Init
+    SC_n <= '0';  -- chip enabled
+    OE   <= '0';
+    RW_n <= '0';
+    Adr  <= (others => '0');
+    Din  <= (others => '0');
+    WAIT FOR 20 ns;
+
+    -- Write data 10101010 at Adr=0001
+    Adr  <= "0001";
+    Din  <= "10101010";
+    RW_n <= '0';  -- write
+    OE   <= '0';
+    WAIT FOR 40 ns;
+
+    -- Write data 11110000 at Adr=0010
+    Adr  <= "0010";
+    Din  <= "11110000";
+    RW_n <= '0';
+    OE   <= '0';
+    WAIT FOR 40 ns;
+
+    -- Read from Adr=0001
+    Adr  <= "0001";
+    RW_n <= '1';  -- read
+    OE   <= '1';
+    WAIT FOR 40 ns;
+
+    -- Read from Adr=0010
+    Adr  <= "0010";
+    RW_n <= '1';
+    OE   <= '1';
+    WAIT FOR 40 ns;
+
+    -- Write at Adr=0100
+    Adr  <= "0100";
+    Din  <= "00001111";
+    RW_n <= '0';
+    OE   <= '0';
+    WAIT FOR 40 ns;
+
+    -- Read from Adr=0100
+    Adr  <= "0100";
+    RW_n <= '1';
+    OE   <= '1';
+    WAIT FOR 40 ns;
+
+    -- Désactive la mémoire (chip select)
+    SC_n <= '1';
+    WAIT FOR 40 ns;
+
+    -- Re-active and read again Adr=0001
+    SC_n <= '0';
+    Adr  <= "0001";
+    RW_n <= '1';
+    OE   <= '1';
+    WAIT FOR 40 ns;
+
+    -- Fin de simulation
+    WAIT FOR 60 ns;
+    ASSERT FALSE REPORT "Simulation finished" SEVERITY FAILURE;
+  END PROCESS;
+END;
