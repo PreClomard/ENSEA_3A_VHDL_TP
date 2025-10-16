@@ -1,0 +1,85 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+
+entity sequenceur_tb is
+end sequenceur_tb;
+
+architecture Behavioral of sequenceur_tb is
+
+    component sequenceur
+        port(
+            enwrite, enread, clk, reset, req : in std_logic;
+            acq, rw_n, oe, incwrite, incread, hl, selread, cs_n : out std_logic
+        );
+    end component;
+
+    signal enwrite, enread, clk, reset, req : std_logic := '0';
+    signal acq, rw_n, oe, incwrite, incread, hl, selread, cs_n : std_logic;
+
+begin
+    DUT: entity work.sequenceur(archi_moore_synchr)
+        port map (
+            enwrite  => enwrite,
+            enread   => enread,
+            clk      => clk,
+            reset    => reset,
+            req      => req,
+            acq      => acq,
+            rw_n     => rw_n,
+            oe       => oe,
+            incwrite => incwrite,
+            incread  => incread,
+            hl       => hl,
+            selread  => selread,
+            cs_n     => cs_n
+        );
+
+    clk_process : process
+    begin
+        clk <= '0';
+        wait for 10 ns;
+        clk <= '1';
+        wait for 10 ns;
+    end process clk_process;
+
+    stim_process : process
+    begin
+        -- Étape 0 : Repos
+        reset <= '1';
+        wait for 5 ns;
+	
+	-- Étape 1 : Lecture 1
+	enread <= '1';
+	enwrite <= '0';
+	reset <= '0';
+	wait for 10 ns;
+	
+	-- Étape 0 : Repos
+
+	-- Étape 2 : Écriture
+	enread <= '0';
+	enwrite <= '1';
+        req <='0';
+	wait for 40 ns;
+
+	-- Étape 3 : Attente
+	wait for 20 ns;
+
+        -- Étape 4 : Lecture 2
+	enread <= '1';
+	enwrite <= '0';
+	req <= '1';
+        wait for 10 ns;
+
+	-- Étape 3 : Attente
+
+	-- Étape 0 : Repos
+	req <= '0';
+	wait for 10 ns;
+
+        -- Fin de simulation
+        wait;
+    end process stim_process;
+
+end Behavioral;
