@@ -56,7 +56,6 @@ architecture structure of FIFO is
      -- Instanciation de Seq
      U4: sequenceur
 	port map(
-          reset => reset_In,	
 	  CLK => clk_In,
 	  reset => reset_In,
 	  enread => enread_out,
@@ -98,7 +97,7 @@ architecture structure of FIFO is
 	);
 
       -- Instanciation de Ram
-      U7: RAM
+      U7: RAM_2pMxNbits
 	port map(
 	  CS_n => cs_n_out,
 	  RW_n => rw_n_out,

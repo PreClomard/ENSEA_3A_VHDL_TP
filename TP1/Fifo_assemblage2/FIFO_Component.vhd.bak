@@ -33,7 +33,7 @@ package FIFO_Component is
   end component;
 
   -- Declaration du composant RAM
-  component RAM
+  component RAM_2pMxNbits
     generic (
       M : integer := 4;  
       N : integer := 8  
@@ -115,7 +115,7 @@ end component;
     );
   end component;
 
-  -- Declaration du composant SEQUENCEUR (FSM)
+  -- Declaration du composant SEQUENCEUR
   component sequenceur
     port (
       enwrite, enread, clk, reset, req : in  STD_LOGIC; 

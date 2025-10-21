@@ -33,7 +33,7 @@ package FIFO_Component is
   end component;
 
   -- Declaration du composant RAM
-  component RAM
+  component RAM_2pMxNbits
     generic (
       M : integer := 4;  
       N : integer := 8  
@@ -82,7 +82,7 @@ end component;
       M : integer := 4
     );
     port (
-      RESET    : in  STD_LOGIC;
+      Reset_in    : in  STD_LOGIC;
       CLK      : in  STD_LOGIC;
       incread  : in  STD_LOGIC;
       incwrite : in  STD_LOGIC;

@@ -9,6 +9,18 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity DCPT_M
 -- Compiling architecture Behavioral of DCPT_M
 
+} {} {}} /home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/FIFO_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/FIFO_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package FIFO_Component
+-- Compiling entity fifo_tb
+-- Compiling architecture fifo_tb_arch of fifo_tb
+
 } {} {}} /home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/reg_N.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/reg_N.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -108,15 +120,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity complement_a_2
 -- Compiling architecture archi_complement_a_2 of complement_a_2
 
-} {} {}} /home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/RAM_2pMxNbits.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/RAM_2pMxNbits.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity RAM_2pMxNbits
--- Compiling architecture comp of RAM_2pMxNbits
-
 } {} {}} /home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/genhl.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/genhl.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -128,5 +131,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package FIFO_Component
 -- Compiling entity GENHL
 -- Compiling architecture Behavioral of GENHL
+
+} {} {}} /home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/RAM_2pMxNbits.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/RAM_2pMxNbits.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity RAM_2pMxNbits
+-- Compiling architecture comp of RAM_2pMxNbits
 
 } {} {}}

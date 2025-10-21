@@ -11,6 +11,7 @@ entity FastSlow is
     CLK      : in  STD_LOGIC;
     Incwrite : in  STD_LOGIC;
     Incread  : in  STD_LOGIC;
+    Reset_in    : in STD_LOGIC;
     Fast     : out STD_LOGIC;  -- '1' si le nombre de mots dans la FIFO est < 2^(M-2)
     Slow     : out STD_LOGIC   -- '1' si le nombre de mots dans la FIFO est >= 2^M - 2^(M-2)
   );
@@ -25,7 +26,7 @@ begin
     port map (
       ENABLE  => '1',
       UD      => Incwrite,
-      RESET   => '0',
+      RESET   => Reset_in,
       CLK     => CLK,
       CPTR    => counter_value
     );
