@@ -1,0 +1,53 @@
+---------------------------------------------------------
+-- RAM_2pMxNbits.vhd (main file)
+---------------------------------------------------------
+
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity RAM_2pMxNbits is
+    generic (
+        N : natural := 8;  -- size of the data
+        M : natural := 4   -- size of the @ (2^M)
+    );
+    port (
+        OE   : in  std_logic;
+        SC_n : in  std_logic;
+        RW_n : in  std_logic;
+        Adr  : in  std_logic_vector(M-1 downto 0);
+        Din  : in  std_logic_vector(N-1 downto 0);
+        Dout : out std_logic_vector(N-1 downto 0)
+    );
+end entity RAM_2pMxNbits;
+
+---------------------------------------------------------
+architecture comp of RAM_2pMxNbits is
+
+    -- Def of the memory
+    type memp is array (0 to (2**M)-1) of std_logic_vector(N-1 downto 0);
+    signal data : memp;
+
+begin
+
+    process(OE, SC_n, RW_n, Adr, Din)
+    begin
+        if SC_n = '0' then
+            if RW_n = '1' then       -- Reading
+                if OE = '1' then
+                    Dout <= data(to_integer(unsigned(Adr)));
+                else
+                    Dout <= (others => 'Z');
+                end if;
+            elsif RW_n = '0' then    -- Writing
+                data(to_integer(unsigned(Adr))) <= Din;
+                Dout <= (others => 'Z');
+            end if;
+        else
+            Dout <= (others => 'Z'); -- High impedence
+        end if;
+    end process;
+
+end architecture comp;
+
+

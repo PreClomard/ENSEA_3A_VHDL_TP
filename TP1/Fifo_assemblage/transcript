@@ -1,0 +1,18 @@
+# Loading project Fifo_assemblage
+# Compile of mon_package.vhd failed with 1 errors.
+# Compile of mon_package.vhd was successful.
+# Compile of complement_a_2.vhd was successful.
+# Compile of reg_N.vhd was successful.
+# Compile of sequenceur.vhd was successful.
+# Compile of genadr.vhd failed with 3 errors.
+# Compile of FIFO_Component.vhd was successful.
+# Compile of genadr.vhd was successful.
+# Compile of fastslow.vhd failed with 3 errors.
+# Compile of fastslow.vhd failed with 3 errors.
+# Compile of fastslow.vhd was successful.
+# Compile of RAM_2pMxNbits.vhd failed with 1 errors.
+# Compile of RAM_2pMxNbits.vhd was successful.
+# Compile of RAM_2pMxNbits.vhd was successful.
+# Compile of mux_m2to1.vhd was successful.
+# Compile of dcpt_m.vhd was successful.
+# Break key hit
