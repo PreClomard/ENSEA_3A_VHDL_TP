@@ -98,15 +98,15 @@ architecture structure of FIFO is
 
       -- Instanciation de Ram
       U7: RAM_2pMxNbits
-	port map(
-	  CS_n => cs_n_out,
-	  RW_n => rw_n_out,
-	  OE => oe_out,
-	  Adr => Adrg_out,
-	  Din => Comp2_out,
-	  --Sortie
-	  Dout => Dout
-	);
+  port map(
+    OE   => oe_out,
+    SC_n => cs_n_out,  -- ? correspondance correcte
+    RW_n => rw_n_out,
+    Adr  => Adrg_out,
+    Din  => Comp2_out,
+    Dout => Dout
+  );
+
 
 end architecture;
     

@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------------------
--- Compteur/Décompteur M bits
+-- Compteur/Dï¿½compteur M bits
 -- GROUSSARD et PRESSARD
 -------------------------------------------------------------------------------------------
 library IEEE;
@@ -9,14 +9,14 @@ use ieee.std_logic_unsigned.all;
 -------------------------------------------------------------------------------------------
 entity DCPT_M is
   generic (
-    M : integer := 8  -- Nombre de bits du compteur/décompteur
+    M : integer := 8  -- Nombre de bits du compteur/dï¿½compteur
   );
   port (
-    ENABLE : in  STD_LOGIC;  -- Active le comptage/décomptage
-    UD     : in  STD_LOGIC;  -- '1' pour compter, '0' pour décompter
+    ENABLE : in  STD_LOGIC;  -- Active le comptage/dï¿½comptage
+    UD     : in  STD_LOGIC;  -- '1' pour compter, '0' pour dï¿½compter
     RESET  : in  STD_LOGIC;  -- Reset synchrone
     CLK    : in  STD_LOGIC;  -- Horloge
-    CPTR   : out STD_LOGIC_VECTOR(M-1 downto 0)  -- Sortie du compteur/décompteur
+    CPTR   : out STD_LOGIC_VECTOR(M-1 downto 0)  -- Sortie du compteur/dï¿½compteur
   );
 end DCPT_M;
 -------------------------------------------------------------------------------------------
@@ -35,7 +35,7 @@ begin
             counter <= counter + '1';
          
         else
-          -- Mode décompteur
+          -- Mode dï¿½compteur
           
             counter <= counter - '1';
           end if;

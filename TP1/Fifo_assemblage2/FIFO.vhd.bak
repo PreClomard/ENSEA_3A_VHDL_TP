@@ -75,7 +75,7 @@ architecture structure of FIFO is
      -- Instanciation de FastSlow
      U5: FASTSLOW
 	port map(
-	  RESET => reset_In,	
+	  Reset_in => reset_In,	
 	  CLK => clk_In,
 	  incwrite => incwrite_out,
 	  incread => incread_out, 

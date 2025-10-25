@@ -33,20 +33,21 @@ package FIFO_Component is
   end component;
 
   -- Declaration du composant RAM
-  component RAM_2pMxNbits
-    generic (
-      M : integer := 4;  
-      N : integer := 8  
-    );
-    port (
-      CS_n  : in  STD_LOGIC; 
-      RW_n  : in  STD_LOGIC; 
-      OE    : in  STD_LOGIC;  
-      Adr   : in  STD_LOGIC_VECTOR(M-1 downto 0);
-      Din   : in  STD_LOGIC_VECTOR(N-1 downto 0);
-      Dout  : out STD_LOGIC_VECTOR(N-1 downto 0)
-    );
-  end component;
+component RAM_2pMxNbits
+  generic (
+    N : natural := 8;  -- taille des données
+    M : natural := 4   -- taille des adresses
+  );
+  port (
+    OE   : in  STD_LOGIC;
+    SC_n : in  STD_LOGIC;  -- ? même nom que dans l?entité
+    RW_n : in  STD_LOGIC;
+    Adr  : in  STD_LOGIC_VECTOR(M-1 downto 0);
+    Din  : in  STD_LOGIC_VECTOR(N-1 downto 0);
+    Dout : out STD_LOGIC_VECTOR(N-1 downto 0)
+  );
+end component;
+
 
   -- Declaration du composant MUX_M2to1 (Multiplexeur M x 2 vers 1)
 component MUX_M2to1

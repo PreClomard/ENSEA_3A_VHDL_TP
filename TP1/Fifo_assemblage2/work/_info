@@ -12,7 +12,7 @@ d/home/pressard-clovis
 Pcheck_pkg
 Z0 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z1 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 64
+!i122 105
 Z2 w1761035328
 Z3 d/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2
 Z4 8/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/mon_package.vhd
@@ -24,9 +24,9 @@ VOGlY1U0C3oV@2;LQEzaJA2
 Z6 OV;C;2020.1;71
 32
 b1
-Z7 !s110 1761043939
+Z7 !s110 1761411699
 !i10b 1
-Z8 !s108 1761043939.000000
+Z8 !s108 1761411699.000000
 Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/mon_package.vhd|
 Z10 !s107 /home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/mon_package.vhd|
 !i113 1
@@ -36,7 +36,7 @@ Bbody
 Z13 DPx4 work 9 check_pkg 0 22 OGlY1U0C3oV@2;LQEzaJA2
 R0
 R1
-!i122 64
+!i122 105
 l0
 L50 1
 Vnn<zWUCWVIEZbcHjfZj<c0
@@ -58,7 +58,7 @@ Z16 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 Z17 DPx4 work 13 mes_fonctions 0 22 ]HG<CBUofFCF59AD[GgNl0
 R0
 R1
-!i122 68
+!i122 112
 R3
 Z18 8/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/complement_a_2.vhd
 Z19 F/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/complement_a_2.vhd
@@ -68,9 +68,9 @@ VO6GmXVj4m5XhShXIIkeD_1
 !s100 5dSl[WQKR39gUcF::=C1l3
 R6
 32
-Z20 !s110 1761043955
+Z20 !s110 1761411761
 !i10b 1
-Z21 !s108 1761043955.000000
+Z21 !s108 1761411760.000000
 Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/complement_a_2.vhd|
 Z23 !s107 /home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/complement_a_2.vhd|
 !i113 1
@@ -83,7 +83,7 @@ R17
 R0
 R1
 DEx4 work 14 complement_a_2 0 22 O6GmXVj4m5XhShXIIkeD_1
-!i122 68
+!i122 112
 l12
 L11 4
 VCCnMTGcY_^eY`KLl78l220
@@ -105,7 +105,7 @@ R16
 Z25 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 R0
 R1
-!i122 65
+!i122 103
 R3
 Z26 8/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/dcpt_m.vhd
 Z27 F/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/dcpt_m.vhd
@@ -115,9 +115,9 @@ VRd;gOQJ2<l`LDZf6WKR]i3
 !s100 G6dXlb>gSAj2mcEC5XaHJ1
 R6
 32
-Z29 !s110 1761043942
+Z29 !s110 1761411695
 !i10b 1
-Z30 !s108 1761043942.000000
+Z30 !s108 1761411695.000000
 Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/dcpt_m.vhd|
 Z32 !s107 /home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/dcpt_m.vhd|
 !i113 1
@@ -130,7 +130,7 @@ R25
 R0
 R1
 DEx4 work 6 dcpt_m 0 22 Rd;gOQJ2<l`LDZf6WKR]i3
-!i122 65
+!i122 103
 l25
 L23 25
 V7Z:`FajE0XTVna2h7elaA0
@@ -149,11 +149,11 @@ Efastslow
 Z33 w1761043781
 R15
 R16
-Z34 DPx4 work 14 fifo_component 0 22 9F7z]JV]@_;H0E1GmJWEE1
+Z34 DPx4 work 14 fifo_component 0 22 MiC;Z<15cPckzkJ1_PhZa1
 R25
 R0
 R1
-!i122 69
+!i122 111
 R3
 Z35 8/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/fastslow.vhd
 Z36 F/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/fastslow.vhd
@@ -163,9 +163,9 @@ VidA=b`o`h]3CjP?T8^LRN1
 !s100 J]8]3ic_0T78IcEJ1;LFk2
 R6
 32
-Z37 !s110 1761043962
+Z37 !s110 1761411759
 !i10b 1
-Z38 !s108 1761043962.000000
+Z38 !s108 1761411758.000000
 Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/fastslow.vhd|
 Z40 !s107 /home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/fastslow.vhd|
 !i113 1
@@ -179,7 +179,7 @@ R25
 R0
 R1
 DEx4 work 8 fastslow 0 22 idA=b`o`h]3CjP?T8^LRN1
-!i122 69
+!i122 111
 l23
 L20 19
 VIJUZSo`HSfZe^K3C@aD2M1
@@ -195,14 +195,14 @@ R40
 R11
 R12
 Efifo
-Z41 w1761043910
+Z41 w1761411036
 R15
 R16
 R34
 R25
 R0
 R1
-!i122 73
+!i122 117
 R3
 Z42 8/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/FIFO.vhd
 Z43 F/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/FIFO.vhd
@@ -212,9 +212,9 @@ Ved8EBnaD2YD^z5=Q^eR;81
 !s100 T>JPiLRZ^76_9N]H@DW:L2
 R6
 32
-Z44 !s110 1761043980
+Z44 !s110 1761411776
 !i10b 1
-Z45 !s108 1761043980.000000
+Z45 !s108 1761411776.000000
 Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/FIFO.vhd|
 Z47 !s107 /home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/FIFO.vhd|
 !i113 1
@@ -228,11 +228,11 @@ R25
 R0
 R1
 DEx4 work 4 fifo 0 22 ed8EBnaD2YD^z5=Q^eR;81
-!i122 73
+!i122 117
 l26
 L21 91
-V1jCPWj`CY@Fc^hj5E;Db51
-!s100 [D0=JDgeBKh?AdakV:T<P1
+V3?bXT5V6?8HV;NhcHTY1M2
+!s100 KnYd4IE3^R=VU0^K:Qbk02
 R6
 32
 R44
@@ -249,20 +249,20 @@ R16
 R25
 R0
 R1
-!i122 63
-w1761043917
+!i122 116
+w1761411022
 R3
 8/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/FIFO_Component.vhd
 F/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/FIFO_Component.vhd
 l0
 L6 1
-V9F7z]JV]@_;H0E1GmJWEE1
-!s100 FRFZiai<F5;L[n6=aX@CE1
+VMiC;Z<15cPckzkJ1_PhZa1
+!s100 Kh4i_RaX<Y`QZYCAMam:_0
 R6
 32
-!s110 1761043936
+!s110 1761411775
 !i10b 1
-!s108 1761043936.000000
+!s108 1761411775.000000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/FIFO_Component.vhd|
 !s107 /home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/FIFO_Component.vhd|
 !i113 1
@@ -276,7 +276,7 @@ R34
 R1
 R0
 R25
-!i122 74
+!i122 118
 R3
 Z49 8/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/FIFO_tb.vhd
 Z50 F/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/FIFO_tb.vhd
@@ -286,9 +286,9 @@ VlzV9=T_aS:V@SooFfmQT<0
 !s100 J0KlSfbC2<3mK9=W@2llF0
 R6
 32
-Z51 !s110 1761043984
+Z51 !s110 1761411780
 !i10b 1
-Z52 !s108 1761043984.000000
+Z52 !s108 1761411780.000000
 Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/FIFO_tb.vhd|
 Z54 !s107 /home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/FIFO_tb.vhd|
 !i113 1
@@ -301,12 +301,12 @@ R34
 R1
 R0
 R25
-Z55 DEx4 work 7 fifo_tb 0 22 lzV9=T_aS:V@SooFfmQT<0
-!i122 74
+DEx4 work 7 fifo_tb 0 22 lzV9=T_aS:V@SooFfmQT<0
+!i122 118
 l41
-Z56 L14 76
-Z57 V_2m@SAk<Ha5imfNCONGnd1
-Z58 !s100 UO_Q9OJ5>Jdbf>jURbb`V3
+Z55 L14 76
+V_2m@SAk<Ha5imfNCONGnd1
+Z56 !s100 UO_Q9OJ5>Jdbf>jURbb`V3
 R6
 32
 R51
@@ -339,28 +339,28 @@ R11
 R12
 w1761040595
 Egenadr
-Z59 w1761035334
+Z57 w1761035334
 R15
 R16
 R34
 R25
 R0
 R1
-!i122 72
+!i122 109
 R3
-Z60 8/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/genadr.vhd
-Z61 F/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/genadr.vhd
+Z58 8/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/genadr.vhd
+Z59 F/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/genadr.vhd
 l0
 R28
 VR3m>`^2[YcZ4DX`;_<RD_0
 !s100 aYhWL?QeM?dREM5eoQGe?3
 R6
 32
-Z62 !s110 1761043976
+Z60 !s110 1761411754
 !i10b 1
-Z63 !s108 1761043976.000000
-Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/genadr.vhd|
-Z65 !s107 /home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/genadr.vhd|
+Z61 !s108 1761411754.000000
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/genadr.vhd|
+Z63 !s107 /home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/genadr.vhd|
 !i113 1
 R11
 R12
@@ -372,44 +372,44 @@ R25
 R0
 R1
 DEx4 work 6 genadr 0 22 R3m>`^2[YcZ4DX`;_<RD_0
-!i122 72
+!i122 109
 l28
 L24 38
 V:G6f5RzC6OiCn7BHFj`5S3
 !s100 Y2^WMRmd@l0`1_c_m1KDT3
 R6
 32
-R62
+R60
 !i10b 1
+R61
+R62
 R63
-R64
-R65
 !i113 1
 R11
 R12
 Egenhl
-Z66 w1761037140
+Z64 w1761037140
 R15
 R16
 R34
 R25
 R0
 R1
-!i122 71
+!i122 110
 R3
-Z67 8/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/genhl.vhd
-Z68 F/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/genhl.vhd
+Z65 8/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/genhl.vhd
+Z66 F/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/genhl.vhd
 l0
 L12 1
 VJl>AO0?gzeZF1IXCjRZ_d0
 !s100 IjA;Zj6`Qk3Mf[1;5I;Dc0
 R6
 32
-Z69 !s110 1761043973
+Z67 !s110 1761411756
 !i10b 1
-Z70 !s108 1761043973.000000
-Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/genhl.vhd|
-Z72 !s107 /home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/genhl.vhd|
+Z68 !s108 1761411756.000000
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/genhl.vhd|
+Z70 !s107 /home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/genhl.vhd|
 !i113 1
 R11
 R12
@@ -421,18 +421,18 @@ R25
 R0
 R1
 DEx4 work 5 genhl 0 22 Jl>AO0?gzeZF1IXCjRZ_d0
-!i122 71
+!i122 110
 l31
 L24 29
 Vh[Do1GXgb732O8m5AT^VD2
 !s100 UL5ndnU4VIKC@2ij4f44J1
 R6
 32
-R69
+R67
 !i10b 1
+R68
+R69
 R70
-R71
-R72
 !i113 1
 R11
 R12
@@ -441,7 +441,7 @@ R15
 R16
 R0
 R1
-!i122 64
+!i122 105
 R2
 R3
 R4
@@ -467,7 +467,7 @@ R15
 R16
 R0
 R1
-!i122 64
+!i122 105
 l0
 L11 1
 VEZ0`hh`_5o`i@H`bdS7z[3
@@ -483,25 +483,25 @@ R10
 R11
 R12
 Emux_m2to1
-Z73 w1761035323
+Z71 w1761035323
 R25
 R0
 R1
-!i122 66
+!i122 104
 R3
-Z74 8/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/mux_m2to1.vhd
-Z75 F/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/mux_m2to1.vhd
+Z72 8/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/mux_m2to1.vhd
+Z73 F/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/mux_m2to1.vhd
 l0
 L9 1
 Vzn7bFRZTYBcjeMnY1h>hj1
 !s100 DlRP8DCeENjkXPCTY0GBQ1
 R6
 32
-Z76 !s110 1761043944
+Z74 !s110 1761411697
 !i10b 1
-Z77 !s108 1761043944.000000
-Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/mux_m2to1.vhd|
-Z79 !s107 /home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/mux_m2to1.vhd|
+Z75 !s108 1761411697.000000
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/mux_m2to1.vhd|
+Z77 !s107 /home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/mux_m2to1.vhd|
 !i113 1
 R11
 R12
@@ -510,41 +510,41 @@ R25
 R0
 R1
 DEx4 work 9 mux_m2to1 0 22 zn7bFRZTYBcjeMnY1h>hj1
-!i122 66
+!i122 104
 l22
 L21 4
 Vn2b]OKNOU;_hJZTL@dUid1
 !s100 00edI]nT?:TFdJ9WZN]Md1
 R6
 32
-R76
+R74
 !i10b 1
+R75
+R76
 R77
-R78
-R79
 !i113 1
 R11
 R12
 Eram_2pmxnbits
-Z80 w1761035312
+Z78 w1761035312
 R25
 R0
 R1
-!i122 57
+!i122 115
 R3
-Z81 8/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/RAM_2pMxNbits.vhd
-Z82 F/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/RAM_2pMxNbits.vhd
+Z79 8/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/RAM_2pMxNbits.vhd
+Z80 F/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/RAM_2pMxNbits.vhd
 l0
 L9 1
 Vc6m5MJM0M?Tn3UzZCCFL73
 !s100 Znc[lR8hgVMn?>O8EQK360
 R6
 32
-Z83 !s110 1761043561
+Z81 !s110 1761411772
 !i10b 1
-Z84 !s108 1761043561.000000
-Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/RAM_2pMxNbits.vhd|
-Z86 !s107 /home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/RAM_2pMxNbits.vhd|
+Z82 !s108 1761411772.000000
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/RAM_2pMxNbits.vhd|
+Z84 !s107 /home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/RAM_2pMxNbits.vhd|
 !i113 1
 R11
 R12
@@ -553,41 +553,41 @@ R25
 R0
 R1
 DEx4 work 13 ram_2pmxnbits 0 22 c6m5MJM0M?Tn3UzZCCFL73
-!i122 57
+!i122 115
 l31
 L25 27
 VXEN^KZlf2e<Czgj9HcolS0
 !s100 @BbWjnM@AzO7RbYQ=lo?[1
 R6
 32
-R83
+R81
 !i10b 1
+R82
+R83
 R84
-R85
-R86
 !i113 1
 R11
 R12
 Ereg_n
-Z87 w1761035304
+Z85 w1761035304
 R13
 R0
 R1
-!i122 67
+!i122 113
 R3
-Z88 8/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/reg_N.vhd
-Z89 F/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/reg_N.vhd
+Z86 8/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/reg_N.vhd
+Z87 F/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/reg_N.vhd
 l0
 L5 1
 V=iNQ5W1L0hDX8YEC5CMU60
 !s100 8aNQj=0=eUk?TVgf7=C2G1
 R6
 32
-Z90 !s110 1761043952
+Z88 !s110 1761411768
 !i10b 1
-Z91 !s108 1761043952.000000
-Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/reg_N.vhd|
-Z93 !s107 /home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/reg_N.vhd|
+Z89 !s108 1761411768.000000
+Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/reg_N.vhd|
+Z91 !s107 /home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/reg_N.vhd|
 !i113 1
 R11
 R12
@@ -596,78 +596,78 @@ R13
 R0
 R1
 DEx4 work 5 reg_n 0 22 =iNQ5W1L0hDX8YEC5CMU60
-!i122 67
+!i122 113
 l14
 L13 15
 Vn[m_DBZzO`oO6VjaJgh?J1
 !s100 3gC^Q`i_ZeGTj]<H?7UMC2
 R6
 32
-R90
+R88
 !i10b 1
+R89
+R90
 R91
-R92
-R93
 !i113 1
 R11
 R12
 Esequenceur
-Z94 w1761035296
+Z92 w1761035296
 R0
 R1
-!i122 70
+!i122 114
 R3
-Z95 8/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/sequenceur.vhd
-Z96 F/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/sequenceur.vhd
+Z93 8/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/sequenceur.vhd
+Z94 F/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/sequenceur.vhd
 l0
 L3 1
 VP@YFon[[`g57C=HmdB3IG0
 !s100 4D6oUn=S91IU2M1gE5@9H0
 R6
 32
-Z97 !s110 1761043968
+Z95 !s110 1761411770
 !i10b 1
-Z98 !s108 1761043968.000000
-Z99 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/sequenceur.vhd|
-Z100 !s107 /home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/sequenceur.vhd|
+Z96 !s108 1761411770.000000
+Z97 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/sequenceur.vhd|
+Z98 !s107 /home/pressard-clovis/Documents/ENSEA/3eme_Annee/VHDL/ENSEA_3A_VHDL_TP/TP1/Fifo_assemblage2/sequenceur.vhd|
 !i113 1
 R11
 R12
 Aarchi_mealy_synchr
 R0
 R1
-Z101 DEx4 work 10 sequenceur 0 22 P@YFon[[`g57C=HmdB3IG0
-!i122 70
+Z99 DEx4 work 10 sequenceur 0 22 P@YFon[[`g57C=HmdB3IG0
+!i122 114
 l52
 L49 46
 VQNL;4]hGGlcoSYCC8:o2Z3
 !s100 RN0:3AD9f=HRdA_MRNz[M1
 R6
 32
-R97
+R95
 !i10b 1
+R96
+R97
 R98
-R99
-R100
 !i113 1
 R11
 R12
 Aarchi_moore_synchr
 R0
 R1
-R101
-!i122 70
+R99
+!i122 114
 l11
 L8 40
 V=ifiPgcMkeG7U;0K<VW0N3
 !s100 082oXQGSXXa4VBGIDan9>1
 R6
 32
-R97
+R95
 !i10b 1
+R96
+R97
 R98
-R99
-R100
 !i113 1
 R11
 R12
